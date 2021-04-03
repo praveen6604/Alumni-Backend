@@ -35,7 +35,7 @@ import com.alumni.backend.repository.JobPostingRepository;
 
 
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/alumni")
 public class AlumniController {
